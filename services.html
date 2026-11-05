@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Faheem Pharmacy & Medical Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-logo"><i class="fa-solid fa-plus"></i></div>
+      <span>Faheem Pharmacy</span>
+    </div>
+  </div>
+
+  <header class="main-header">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <span class="brand-icon"><i class="fa-solid fa-plus"></i></span>
+          <span>
+            <span class="brand-title">Faheem Pharmacy</span>
+            <span class="brand-subtitle">& Medical Store</span>
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="hospitals.html">Nearest Hospital</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+          <div class="nav-actions d-flex align-items-center gap-2">
+            <button id="themeToggle" class="btn btn-light btn-icon"><i class="fa-solid fa-moon"></i></button>
+            <a href="products.html" class="btn btn-primary btn-sm">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-banner page-services-bg">
+    <div class="page-banner-overlay"></div>
+    <div class="container page-banner-content">
+      <span class="breadcrumb-label"><a href="index.html">Home</a> / Services</span>
+      <h1>Pharmacy Services</h1>
+      <p>Convenient healthcare services for better everyday wellbeing.</p>
+    </div>
+  </section>
+
+  <section class="section services-overview">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbra2cT4pmQDCkal1SXX0H54orF4ppD789F-458kNzLBYvJ550RbS2OJk&s=10" alt="Pharmacist consultation" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-house-medical"></i></span>
+              <h4>Home Delivery</h4>
+              <p>Reliable medicine and wellness product delivery to your home.</p>
+              <a href="contact.html" class="read-link">Schedule Delivery <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="80">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS82dfnHPjebMtwAil8ziZgd4n7Nc-UkH41AoeanGDwvV14uLe_MIyBsYs&s=10" alt="Online medicine ordering" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+              <h4>Online Medicine Ordering</h4>
+              <p>Browse products and order medicines quickly through our guidance.</p>
+              <a href="products.html" class="read-link">Shop Medicines <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="160">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://zeelabpharmacy.com/img/Upload_note.png" alt="Pharmacist consult" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-file-medical"></i></span>
+              <h4>Prescription Upload</h4>
+              <p>Upload prescriptions for quick processing and medication support.</p>
+              <a href="contact.html" class="read-link">Upload Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdbCP4UlOFWK8KogqsykoOPOSdLWKA_p8H0te-jIUVkkT5x4DOR3PgMpA&s=10" alt="Healthcare assistance" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-heart-pulse"></i></span>
+              <h4>Blood Pressure Check</h4>
+              <p>Regular health monitoring and personalized health support.</p>
+              <a href="contact.html" class="read-link">Book Check <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="80">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy058XHtBVjerMJlbGeMbDvZisgJvZOdXq-_v5XgUge8ByaGajw6JRLrtP&s=10" alt="Diabetes monitoring" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-droplet"></i></span>
+              <h4>Diabetes Monitoring</h4>
+              <p>Product support, guidance, and monitoring for diabetes care.</p>
+              <a href="contact.html" class="read-link">Plan Support <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="160">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgYrea-DyWKNQG7tt4KgVjtL0OK6Z51E5_6muA-vZpbqMVDFWr3C7PNwav&s=10" alt="Health consultation" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-stethoscope"></i></span>
+              <h4>Health Consultation</h4>
+              <p>Discuss health concerns and medication-related questions with experts.</p>
+              <a href="contact.html" class="read-link">Consult Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://familydoctor.org/wp-content/uploads/2026/01/MC13342_Vaccine_Chart_English-scaled-e1768501224544.png" alt="Vaccine information" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-syringe"></i></span>
+              <h4>Vaccination Information</h4>
+              <p>Guidance on common vaccine availability and preventive care.</p>
+              <a href="contact.html" class="read-link">Ask Us <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="80">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfT9dSxWCawgJ73GBpM8Q4v69HCOsW-RWu3DDnAzkSHUpcrSCam5h05QU9&s=10" alt="Emergency medicine" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-kit-medical"></i></span>
+              <h4>Emergency Medicine Availability</h4>
+              <p>Quick access to urgent medicines during urgent healthcare situations.</p>
+              <a href="contact.html" class="read-link">Request Support <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="160">
+          <article class="service-detail-card">
+            <div class="service-card-image">
+              <img src="https://www.remedyhospitals.in/images/health-pack/master-health-checkup.jpg" alt="Health packages" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-icon"><i class="fa-solid fa-clipboard-check"></i></span>
+              <h4>Health Packages</h4>
+              <p>Care packages for preventive health, wellness and medication support.</p>
+              <a href="contact.html" class="read-link">Explore Packages <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section service-cta">
+    <div class="container">
+      <div class="cta-panel" data-aos="zoom-in">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <span class="section-kicker">Need healthcare support?</span>
+            <h2 class="section-title">Speak with our pharmacy team today.</h2>
+            <p>We’ll help you choose the right products and delivery support.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="contact.html" class="btn btn-primary btn-lg">Request Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-brand">
+            <span class="brand-icon footer-logo"><i class="fa-solid fa-plus"></i></span>
+            <div>
+              <h4>Faheem Pharmacy</h4>
+              <span class="brand-subtitle">& Medical Store</span>
+            </div>
+          </div>
+          <p class="footer-text">Your trusted neighborhood pharmacy for medicines, wellness products, and healthcare guidance.</p>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="hospitals.html">Nearest Hospital</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Categories</h5>
+          <ul class="footer-links">
+            <li><a href="products.html">Prescription Medicines</a></li>
+            <li><a href="products.html">Vitamins</a></li>
+            <li><a href="products.html">Health Drinks</a></li>
+            <li><a href="products.html">First Aid</a></li>
+            <li><a href="products.html">Medical Equipment</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5>Contact Info</h5>
+          <ul class="footer-links contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> Main Market, City Center</li>
+            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+            <li><i class="fa-solid fa-envelope"></i> care@faheempharmacy.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Faheem Pharmacy & Medical Store. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+  <a href="#" class="live-chat"><i class="fa-solid fa-message"></i><span>Live Chat</span></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
